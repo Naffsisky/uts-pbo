@@ -9,36 +9,43 @@ package com.mycompany.bus;
  * @author naffsisky
  */
 public class Halte {
-    public String nama;
-    public int penumpang;
+    // membuat atribut dari class Halte untuk menampilkan berapa jumlah penumpang yang naik di setiap halte
+    public int jumlahPenumpang;
+    public String namaHalte;
+    public String tujuan;
+    public String berangkat;
 
-    public Halte(String nama, int penumpang){
-        this.nama = nama;
-        this.penumpang = penumpang;
+    public Halte (int jumlahPenumpang, String namaHalte, String tujuan, String berangkat){
+        this.jumlahPenumpang = jumlahPenumpang;
+        this.namaHalte = namaHalte;
+        this.tujuan = tujuan;
     }
-    
-    // getter and setter
-    public String getNama(){
-        return nama;
+
+    public int getJumlahPenumpang(){
+        return jumlahPenumpang;
     }
-    public int getPenumpang(){
-        return penumpang;
+
+    public String getNamaHalte(){
+        return namaHalte;
     }
-    public void setNama(String nama){
-        this.nama = nama;
+
+    public String getTujuan(){
+        return tujuan;
     }
-    public void setPenumpang(int penumpang){
-        this.penumpang = penumpang;
+
+    public void setJumlahPenumpang(int jumlahPenumpang){
+        this.jumlahPenumpang = jumlahPenumpang;
     }
-    
-    // method
-    public void naikPenumpang(int penumpang){
-        this.penumpang += penumpang;
+
+    public void setNamaHalte(String namaHalte){
+        this.namaHalte = namaHalte;
     }
-    public void turunPenumpang(int penumpang){
-        this.penumpang -= penumpang;
+
+    public void setTujuan(String tujuan){
+        this.tujuan = tujuan;
     }
+
     public void info(){
-        System.out.println("Halte " + this.nama + " memiliki " + this.penumpang + " penumpang");
+        System.out.println("\nJumlah penumpang menunggu di halte " + this.namaHalte + " sebanyak " + this.jumlahPenumpang + " orang");
     }
 }
