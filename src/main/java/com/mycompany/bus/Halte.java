@@ -41,6 +41,4 @@ public class Halte {
     public void info(){
         System.out.println("Halte " + this.nama + " memiliki " + this.penumpang + " penumpang");
     }
-
-
 }

@@ -36,12 +36,11 @@ public class Penumpang {
         this.berangkat = berangkat;
     }
     public void setJumlah(int jumlah){
-        this.jumlah = jumlah;
+        // Menambahkan jumlah penumpang dari halte sebelumnya
+        this.jumlah += jumlah;
     }
 
     public void info(){
         System.out.println("Penumpang dari " + this.berangkat + " ke " + this.tujuan + " sebanyak " + this.jumlah + " orang");
     }
 }
-
-
