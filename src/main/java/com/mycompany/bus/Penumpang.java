@@ -36,7 +36,6 @@ public class Penumpang {
         this.berangkat = berangkat;
     }
     public void setJumlah(int jumlah){
-        // Menambahkan jumlah penumpang dari halte sebelumnya
         this.jumlah += jumlah;
     }
 

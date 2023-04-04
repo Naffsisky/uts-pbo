@@ -9,7 +9,6 @@ package com.mycompany.bus;
  * @author naffsisky
  */
 public class Halte {
-    // membuat atribut dari class Halte untuk menampilkan berapa jumlah penumpang yang naik di setiap halte
     public int jumlahPenumpang;
     public String namaHalte;
     public String tujuan;
