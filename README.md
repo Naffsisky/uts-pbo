@@ -1,4 +1,5 @@
-<h3>Output</h3>
+### Output
+
 ```
 ----------------------------------------
 Bus berangkat dari Kantor menuju Porong
@@ -35,4 +36,5 @@ Jumlah penumpang menunggu di halte Gresik sebanyak 0 orang
 Bus tiba di halte Gresik
 Jumlah penumpang yang turun di halte Gresik sebanyak 8 orang
 Jumlah penumpang yang ada di bus sebanyak 0 orang
+
 ```
